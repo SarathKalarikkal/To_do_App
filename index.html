@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-do App</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- font-awesome-cdn-link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!-- heading -->
+      <div class="heading">
+        <i class="fa-solid fa-circle-check"></i>
+        <h2 class="heading-text">Enter Your Task List Here</h2>
+      </div>
+      <!-- to-do-container -->
+      <div class="to-do-App">
+        <!-- APP-heading -->
+        <div class="row1">
+          <h2>To-do List</h2>
+          <i class="fa-solid fa-file-pen"></i>
+        </div>
+        <!-- APP-input -->
+        <div class="row2">
+          <input type="text" id="input-box" placeholder="Add your text" />
+          <button onclick="listItem()">Add</button>
+        </div>
+        <!-- APP-list -->
+        <ul id="list-container">
+          <!-- <li class="checked">Task 1</li>
+            <li>Task 2</li>
+            <li>Task 3</li> -->
+        </ul>
+      </div>
+    </div>
+
+    <!---------JS--------->
+    <script src="main.js"></script>
+  </body>
+</html>
